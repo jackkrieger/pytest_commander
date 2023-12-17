@@ -30,6 +30,7 @@ def main():
             "flask_socketio>=5.0.1, <6.0.0",
             "eventlet>=0.31.0, <1.0.0",
             "watchdog>=3.0.0, <4.0.0",
+            "markupsafe<2.1.0",
         ],
         include_package_data=True,
         entry_points={
